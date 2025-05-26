@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <rect width="800" height="400" fill="#2563EB"/>
+    <g transform="translate(400,200)">
+        <rect x="-120" y="-70" width="240" height="140" rx="10" fill="white"/>
+        <g transform="translate(-100,-50)">
+            <circle cx="10" cy="10" r="8" fill="#2563EB"/>
+            <rect x="30" y="5" width="180" height="10" rx="2" fill="#2563EB" opacity="0.3"/>
+        </g>
+        <g transform="translate(-100,-20)">
+            <circle cx="10" cy="10" r="8" fill="#2563EB"/>
+            <rect x="30" y="5" width="140" height="10" rx="2" fill="#2563EB" opacity="0.3"/>
+        </g>
+        <g transform="translate(-100,10)">
+            <circle cx="10" cy="10" r="8" fill="#2563EB"/>
+            <rect x="30" y="5" width="160" height="10" rx="2" fill="#2563EB" opacity="0.3"/>
+        </g>
+        <g transform="translate(-100,40)">
+            <circle cx="10" cy="10" r="8" fill="#2563EB"/>
+            <rect x="30" y="5" width="120" height="10" rx="2" fill="#2563EB" opacity="0.3"/>
+        </g>
+    </g>
+    <text x="400" y="320" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">TaskFlow</text>
+</svg> 

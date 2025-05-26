@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <rect width="800" height="400" fill="#7C3AED"/>
+    <g transform="translate(400,200)">
+        <circle cx="0" cy="0" r="60" fill="none" stroke="white" stroke-width="4"/>
+        <path d="M-30,0 h60 M0,-30 v60" stroke="white" stroke-width="8"/>
+        <path d="M-20,-20 Q0,-40 20,-20 T40,0 T20,20 T0,40 T-20,20 T-40,0 T-20,-20" 
+              fill="none" stroke="white" stroke-width="4"/>
+    </g>
+    <text x="400" y="320" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">FitTrack Pro</text>
+</svg> 

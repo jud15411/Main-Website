@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Resume</title>
+    <link rel="icon" type="image/svg+xml" href="../public/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="index.html" class="logo" aria-label="Home">JW</a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.html" class="active">Resume</a>
+            <a href="contact.html">Contact</a>
+            <a href="projects.html" class="btn primary">View Projects</a>
+            <a href="contact.html" class="btn secondary">Get in Touch</a>
+            <button id="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main class="resume-page">
+        <!-- Resume Header -->
+        <header class="resume-header">
+            <h1>Judson Wells</h1>
+            <p class="contact-info">
+                <span><i class="fas fa-map-marker-alt"></i> Ogdensburg, New York</span>
+                <span><i class="fas fa-phone"></i> (315) - 590 - 2863</span>
+                <span><i class="fas fa-envelope"></i> judsonwells100@gmail.com</span>
+            </p>
+            <div class="resume-actions">
+                <a href="assets/documents/Resume (6).pdf" 
+                   class="btn primary" 
+                   download="Judson_Wells_Resume.pdf"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section class="resume-section">
+            <h2><i class="fas fa-user-circle"></i> Professional Summary</h2>
+            <p>Aspiring cybersecurity professional with a strong foundation in technical operations and hands-on experience in audio-visual systems management. Demonstrated expertise in implementing security protocols, managing technical equipment, and providing user training. Proven track record of leadership in fast-paced environments, with exceptional problem-solving abilities and a commitment to maintaining operational excellence. Seeking to leverage technical acumen and analytical skills to contribute to an organization's cybersecurity initiatives.</p>
+        </section>
+
+        <!-- Education -->
+        <section class="resume-section">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            <div class="timeline-item">
+                <h3>High School Diploma - Advanced Technical Track</h3>
+                <div class="company">Ogdensburg Free Academy, Ogdensburg, N.Y.</div>
+                <div class="date">Expected Graduation: June 2024</div>
+                <ul>
+                    <li>Maintained Honor Roll status while pursuing technical certifications</li>
+                    <li>Active member of Technology Club and Cybersecurity Interest Group</li>
+                    <li>Completed advanced coursework in Computer Science and Network Security</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <h3>Electrical Technologies Certification Program</h3>
+                <div class="company">Northwest Technical Center, Ogdensburg, N.Y.</div>
+                <div class="date">Sep 2023 - Present</div>
+                <ul>
+                    <li>Specializing in industrial electrical systems and control circuits</li>
+                    <li>Maintaining 95% average in technical coursework</li>
+                    <li>Developing expertise in electrical safety protocols and compliance standards</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="resume-section">
+            <h2><i class="fas fa-briefcase"></i> Professional Experience</h2>
+            <div class="timeline-item">
+                <h3>Audio-Visual Technology Specialist</h3>
+                <div class="company">Ogdensburg City School District, Ogdensburg, N.Y.</div>
+                <div class="date">Sep 2020 - Present</div>
+                <ul>
+                    <li>Spearhead the management and operation of audio-visual systems for 50+ annual school events, achieving 100% uptime during critical presentations</li>
+                    <li>Developed and implemented a comprehensive equipment maintenance protocol, reducing technical issues by 40%</li>
+                    <li>Created and delivered technical training programs for 15+ staff members, improving system utilization efficiency by 60%</li>
+                    <li>Established a digital inventory management system, tracking $100,000+ worth of equipment with 99% accuracy</li>
+                    <li>Lead a team of 3 student technicians, coordinating event coverage and maintaining quality standards across all productions</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <h3>Kitchen Operations Lead</h3>
+                <div class="company">Corner Deli, Ogdensburg, N.Y.</div>
+                <div class="date">Jul 2022 - Aug 2024</div>
+                <ul>
+                    <li>Orchestrated kitchen operations serving 200+ customers daily, maintaining a 95% customer satisfaction rate</li>
+                    <li>Implemented new food safety protocols that resulted in perfect health inspection scores for 2 consecutive years</li>
+                    <li>Reduced food waste by 25% through innovative inventory management and portion control measures</li>
+                    <li>Trained and mentored 5 new staff members in food preparation and safety procedures</li>
+                    <li>Contributed to a 15% increase in sales through menu optimization and quality improvement initiatives</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="resume-section">
+            <h2><i class="fas fa-tools"></i> Technical Proficiencies</h2>
+            <div class="skill-category">
+                <div class="skill-grid">
+                    <div class="skill-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Security Systems</span>
+                        <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-tasks"></i>
+                        <span>Project Management</span>
+                        <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-network-wired"></i>
+                        <span>Network Operations</span>
+                        <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-users-cog"></i>
+                        <span>Team Leadership</span>
+                        <div class="skill-bar"><div class="skill-level" style="width: 95%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-tools"></i>
+                        <span>Technical Troubleshooting</span>
+                        <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-project-diagram"></i>
+                        <span>System Integration</span>
+                        <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-user-shield"></i>
+                        <span>Security Protocols</span>
+                        <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-code-branch"></i>
+                        <span>Process Optimization</span>
+                        <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 Judson Wells. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html> 

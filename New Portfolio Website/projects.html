@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Projects</title>
+    <link rel="icon" type="image/svg+xml" href="../public/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar - Keeping consistent with other pages -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="index.html" class="logo" aria-label="Home">JW</a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html">Contact</a>
+            <a href="projects.html" class="btn primary">View Projects</a>
+            <a href="contact.html" class="btn secondary">Get in Touch</a>
+            <button id="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Projects Header Section -->
+        <section class="projects-header">
+            <h1>My Projects</h1>
+            <p>Here's a collection of my recent work and ongoing projects.</p>
+        </section>
+
+        <!-- Project Filter Section - You can customize these categories -->
+        <section class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+            <button class="filter-btn" data-filter="design">UI/UX Design</button>
+        </section>
+
+        <!-- Projects Grid -->
+        <!-- Each project card includes: Image, Title, Description, Technologies, and Links -->
+        <section class="projects-grid">
+            <!-- Project 1 - E-commerce Platform -->
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <!-- Project 1 Image -->
+                    <img src="assets/images/project-1.svg" alt="E-commerce Platform">
+                </div>
+                <div class="project-content">
+                    <h3>Modern E-commerce Platform</h3>
+                    <p>A full-stack e-commerce solution with real-time inventory management and secure payment processing.</p>
+                    <div class="tech-stack">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Stripe</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn primary">Live Demo</a>
+                        <a href="#" class="btn secondary">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 - Mobile Fitness App -->
+            <div class="project-card" data-category="mobile">
+                <div class="project-image">
+                    <!-- Project 2 Image -->
+                    <img src="assets/images/project-2.svg" alt="Fitness Tracking App">
+                </div>
+                <div class="project-content">
+                    <h3>FitTrack Pro</h3>
+                    <p>A mobile fitness tracking application with personalized workout plans and progress analytics.</p>
+                    <div class="tech-stack">
+                        <span>React Native</span>
+                        <span>Firebase</span>
+                        <span>Redux</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn primary">App Store</a>
+                        <a href="#" class="btn secondary">Case Study</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 - UI/UX Design Project -->
+            <div class="project-card" data-category="design">
+                <div class="project-image">
+                    <!-- Project 3 Image -->
+                    <img src="assets/images/project-3.svg" alt="Banking App Design">
+                </div>
+                <div class="project-content">
+                    <h3>NextGen Banking Interface</h3>
+                    <p>A modern banking interface design focused on accessibility and user experience.</p>
+                    <div class="tech-stack">
+                        <span>Figma</span>
+                        <span>Adobe XD</span>
+                        <span>Prototyping</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn primary">View Design</a>
+                        <a href="#" class="btn secondary">Process</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 - Web Application -->
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <!-- Project 4 Image -->
+                    <img src="assets/images/project-4.svg" alt="Task Management Platform">
+                </div>
+                <div class="project-content">
+                    <h3>TaskFlow</h3>
+                    <p>A collaborative task management platform with real-time updates and team analytics.</p>
+                    <div class="tech-stack">
+                        <span>Vue.js</span>
+                        <span>Express</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn primary">Live Demo</a>
+                        <a href="#" class="btn secondary">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 Judson Wells. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <!-- Add the projects specific JavaScript -->
+    <script src="js/projects.js"></script>
+</body>
+</html> 
