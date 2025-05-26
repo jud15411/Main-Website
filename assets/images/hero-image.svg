@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Shape -->
+    <path d="M100 100 Q400 0 700 100 L700 500 Q400 600 100 500 Z" fill="#4F46E5" fill-opacity="0.1"/>
+    
+    <!-- Laptop Base -->
+    <rect x="250" y="250" width="300" height="200" rx="10" fill="#1F2937"/>
+    <rect x="200" y="450" width="400" height="20" rx="10" fill="#374151"/>
+    
+    <!-- Screen -->
+    <rect x="260" y="260" width="280" height="180" rx="5" fill="#F3F4F6"/>
+    
+    <!-- Code Lines -->
+    <rect x="280" y="280" width="120" height="10" rx="2" fill="#4F46E5"/>
+    <rect x="280" y="300" width="200" height="10" rx="2" fill="#7C3AED"/>
+    <rect x="280" y="320" width="160" height="10" rx="2" fill="#F59E0B"/>
+    <rect x="280" y="340" width="180" height="10" rx="2" fill="#4F46E5"/>
+    <rect x="280" y="360" width="140" height="10" rx="2" fill="#7C3AED"/>
+    
+    <!-- Floating Elements -->
+    <circle cx="150" cy="200" r="30" fill="#F59E0B" fill-opacity="0.2"/>
+    <circle cx="650" cy="400" r="40" fill="#4F46E5" fill-opacity="0.2"/>
+    <circle cx="200" cy="500" r="20" fill="#7C3AED" fill-opacity="0.2"/>
+    <circle cx="600" cy="150" r="25" fill="#F59E0B" fill-opacity="0.2"/>
+    
+    <!-- Abstract Lines -->
+    <path d="M50 300 Q100 200 150 300" stroke="#4F46E5" stroke-width="3" fill="none"/>
+    <path d="M650 200 Q700 300 750 200" stroke="#7C3AED" stroke-width="3" fill="none"/>
+</svg> 
