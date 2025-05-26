@@ -71,21 +71,15 @@ document.querySelectorAll('.skill-card').forEach((card, index) => {
 const contactForm = document.querySelector('.contact-form');
 if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        
         // Basic form validation
         const email = contactForm.querySelector('input[type="email"]');
         const message = contactForm.querySelector('textarea');
         
         if (!email.value || !message.value) {
+            e.preventDefault();
             alert('Please fill in all required fields');
             return;
         }
-        
-        // Here you would typically send the form data to a server
-        // For now, we'll just show a success message
-        alert('Message sent successfully!');
-        contactForm.reset();
     });
 }
 
